@@ -1,6 +1,6 @@
 // eslint.config.js
 import eslint from '@eslint/js';
-import prettier from 'eslint-plugin-prettier/eslint-plugin-prettier.js';
+import prettierPlugin from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-config-prettier';
 
 export default [
@@ -8,7 +8,7 @@ export default [
   prettierConfig,
   {
     plugins: {
-      prettier: prettier,
+      prettier: prettierPlugin,
     },
     languageOptions: {
       ecmaVersion: 'latest',
@@ -24,9 +24,9 @@ export default [
       },
     },
     rules: {
-      'semi': ['error', 'always'],
-      'quotes': ['error', 'single'],
-      'prettier/prettier': ['error', { 'singleQuote': true }],
+      semi: ['error', 'always'],
+      quotes: ['error', 'single'],
+      'prettier/prettier': ['error', { singleQuote: true }],
     },
   },
 ];
