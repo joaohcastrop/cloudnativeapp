@@ -37,5 +37,5 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: deploy app
-        run: echo 'deploy app'
+      - name: deploy app prd
+        run: echo 'deploy app pdr'
