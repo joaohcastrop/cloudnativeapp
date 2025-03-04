@@ -1,37 +1,29 @@
 {
   "name": "cloudnativeapp",
   "version": "1.0.0",
-  "type": "module",
-  "description": "",
+  "description": "Example of application with best practices of cloud native and 12 factors-app.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build",
     "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaohcastrop/cloudnativeapp.git"
+    "url": "git+https://github.com/valuedriven/cloudnativeapp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joaohcastrop/cloudnativeapp/issues"
+    "url": "https://github.com/valuedriven/cloudnativeapp/issues"
   },
-  "homepage": "https://github.com/joaohcastrop/cloudnativeapp#readme",
+  "homepage": "https://github.com/valuedriven/cloudnativeapp#readme",
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^10.0.2",
-    "eslint-plugin-prettier": "^5.2.3",
-    "husky": "^8.0.0",
-    "json-server": "^1.0.0-beta.3",
-    "prettier": "^3.5.2",
-    "prettier-plugin-organize-imports": "^4.1.0"
-  },
-  "dependencies": {
-    "next": "^15.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "json-server": "^0.17.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-organize-imports": "^2.3.4"
   }
 }

@@ -1,21 +1,18 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import { Typography } from '@mui/material';
+import Head from 'next/head';
 export default function Home() {
-return (
-<>
-<Head>
-<title>Cloud Native App</title>
-<meta name="description" content="Cloud Native App" />
-<meta name="viewport" content="width=device-width, initial-scale=1"
-/>
-</Head>
-<main className={styles.main}>
-<div className={styles.description}>
-<p>
-Welcome to Cloud Native App!
-</p>
-</div>
-</main>
-</>
-)
+  return (
+    <div>
+      <Head>
+        <title>Cloud Native App</title>
+        <meta name="description" content="Example of Cloud Native App" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div>
+        <Typography component="h4" variant="h4">
+          Welcome to Cloud Native App!
+        </Typography>
+      </div>
+    </div>
+  );
 }
